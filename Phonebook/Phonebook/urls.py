@@ -15,11 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from phone_contacts.views import home
+from phone_contacts.views import contacts_home
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('contacts_home/', home),
+    path('contacts_home/', contacts_home),
 
 ]
